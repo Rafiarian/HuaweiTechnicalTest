@@ -80,36 +80,36 @@ This repository contains **three practical backend & automation tasks** that dem
 
 ## 🚀 How to Run
 
-### SQL Task
+## SQL Task
 - Run the SQL scripts using your preferred SQL engine.
 
 ### Automated Scripts
 # Run data collection manually
 bash collect_data.sh
 
-# Run cleanup manually
+### Run cleanup manually
 bash delete_old_data.sh
 
-# Or use cron jobs as scheduled in crontab
+### Or use cron jobs as scheduled in crontab
 0 8,12,15 * * * ~/collect_data.sh >> ~/cron/collect.log 2>&1
 0 0 * * * ~/delete_old_data.sh >> ~/cron/cleanup.log 2>&1
 
-# Note: Detailed explanations and all SQL scripts are available in the sql/ folder
+### Note: Detailed explanations and all SQL scripts are available in the sql/ folder
 
-### Backend API
+## Backend API
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Run server
+### Run server
 npm start
 
-# Or use Docker
+### Or use Docker
 docker build -t backend-server .
 docker run -p 3000:3000 backend-server
-# Note: Detailed explanations and all SQL scripts are available in the Backend/ folder
+### Note: Detailed explanations and all SQL scripts are available in the Backend/ folder
 
-📬 Contact
+# 📬 Contact
 Name: Rafi Arian Yusuf
 
 Role: DevOPS/Backend Developer
