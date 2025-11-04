@@ -1,3 +1,17 @@
+# 👋 Hi, I'm Rafi Arian Yusuf — Your Next Developer
+
+I am a **Backend/Devops Developer** with experience in:
+- **Database configuration**
+- **Backend integration**
+- **DevOps**
+- **System Analyst**
+- **CloudPlatform**
+- **Project management**
+
+I enjoy building robust and automated systems that are easy to deploy and maintain.  
+
+---
+
 # � Full-Stack Development Test Projects
 
 A collection of three practical implementations demonstrating backend development, automation, and database management skills.
@@ -23,36 +37,44 @@ A collection of three practical implementations demonstrating backend developmen
 │
 └── README.md           # Main project documentation  
 
-## 🔍 Project Overview
+---
 
-### 1. SQL Employee Database (`/SQL_Test`)
-A comprehensive SQL implementation for employee management:
-- Create and populate employee database
-- Handle salary updates and calculations
-- Complex queries with sorting and filtering
-- Experience-based employee analysis
-- Subquery demonstrations
+## 🏗 Projects Completed
 
-**Key Technologies**: SQL, DDL, DML
+This repository contains **three practical backend & automation tasks** that demonstrate my skills in Node.js, Bash scripting, and DevOps practices.
 
-### 2. Automated Weather Data Collection (`/Automation_Testing`)
-Automated system for collecting and managing weather data:
-- Scheduled data collection from Meteo Weather API
-- Automated data cleanup for efficient storage
-- Cross-platform support (Windows/Linux)
-- Configurable scheduling system
+---
+### 1️⃣ Backend API with Node.js + Express
 
-**Key Technologies**: Bash, PowerShell, Cron, Task Scheduler
+- Developed a **simple backend server** that can:
+  - Receive form submissions via **POST**
+  - Store them in an **in-memory array**
+  - Return stored data via **GET**
+- Dockerized the backend for **easy deployment and testing**
+- Highlights my abilities in **API design, backend integration, and DevOps practices**.
 
-### 3. Form Submission API (`/Backend`)
-RESTful API server for form data management:
-- Express.js server with CORS support
-- Form submission endpoint
-- Data retrieval functionality
-- Docker containerization
-- Error handling and validation
+----
+### 2️⃣ Automated Data Collection & Cleanup
 
-**Key Technologies**: Node.js, Express, Docker, REST API
+- Built **Bash scripts** to:
+  - Collect weather data **3 times a day** and save it as CSV files
+  - Automatically delete CSV files **older than 30 days**
+- Configured **cron jobs** for automation:
+  - Data collection at `08:00`, `12:00`, and `15:00` daily
+  - Cleanup at midnight daily
+- Demonstrates my skills in **automation, scheduling, and data management**.
+
+---
+### 3️⃣ SQL Data Processing
+
+- Created a **SQL script** to manage employee data including:
+  - Adding new records
+  - Updating salaries
+  - Calculating total salary expenditure
+  - Sorting employees by experience
+  - Using subqueries to filter data
+- This task shows my ability to **handle logical database operations** efficiently.
+
 
 ---
 
@@ -85,8 +107,8 @@ docker run -p 3000:3000 backend-server
 📬 Contact
 Name: Rafi Arian Yusuf
 
-Role: Backend Developer
+Role: DevOPS/Backend Developer
 
 Skills: Node.js, SQL, Bash scripting, DevOps, Project Management
 
-I’m ready to contribute as your next backend developer, bringing automation, scalable systems, and clean coding practices to your team.
+I’m ready to contribute as your next DevOps/backend developer, bringing automation, scalable systems, and clean coding practices to your team.
