@@ -12,7 +12,7 @@ I enjoy building robust and automated systems that are easy to deploy and mainta
 
 ---
 
-# � Full-Stack Development Test Projects
+# � DevOps Developer Test Projects
 
 A collection of three practical implementations demonstrating backend development, automation, and database management skills.
 
@@ -37,7 +37,7 @@ A collection of three practical implementations demonstrating backend developmen
 │
 └── README.md           # Main project documentation  
 
----
+```
 
 ## 🏗 Projects Completed
 
@@ -84,7 +84,6 @@ This repository contains **three practical backend & automation tasks** that dem
 - Run the SQL scripts using your preferred SQL engine.
 
 ### Automated Scripts
-```bash
 # Run data collection manually
 bash collect_data.sh
 
@@ -92,9 +91,13 @@ bash collect_data.sh
 bash delete_old_data.sh
 
 # Or use cron jobs as scheduled in crontab
-Backend API
-bash
-Copy code
+0 8,12,15 * * * ~/collect_data.sh >> ~/cron/collect.log 2>&1
+0 0 * * * ~/delete_old_data.sh >> ~/cron/cleanup.log 2>&1
+
+# Note: Detailed explanations and all SQL scripts are available in the sql/ folder
+
+### Backend API
+
 # Install dependencies
 npm install
 
@@ -104,6 +107,8 @@ npm start
 # Or use Docker
 docker build -t backend-server .
 docker run -p 3000:3000 backend-server
+# Note: Detailed explanations and all SQL scripts are available in the Backend/ folder
+
 📬 Contact
 Name: Rafi Arian Yusuf
 
